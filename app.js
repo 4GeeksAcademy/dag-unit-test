@@ -20,8 +20,8 @@ function fromDollarToYen (dollars){
 }
 
 function fromYenToPound (yen){
-    const eruos = yen * 156.5;
-    const pound = euros / 0.87;
+    const euros = yen / 156.5;
+    const pound = euros * 0.87;
     return pound;
 }
 
